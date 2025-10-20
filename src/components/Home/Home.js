@@ -4,7 +4,7 @@ import { Typewriter } from "react-simple-typewriter";
 import { useSpring, animated } from "react-spring";
 import { ThemeContext } from '../../App';
 import "./Home.css";
-import myImage from '../../assets/Naresh3.jpg'; // <-- add this image to src/assets
+import myImage from '../../assets/Naresh3.jpeg'; // <-- add this image to src/assets
 
 const loadFontAwesome = () => {
   const link = document.createElement("link");
