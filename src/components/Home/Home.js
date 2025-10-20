@@ -16,7 +16,7 @@ const loadFontAwesome = () => {
 const Home = () => {
   const resumeLink = () => {
     // TODO: replace with your real public resume URL
-    window.open('https://drive.google.com/file/d/your_new_resume_id_here/view?usp=sharing', '_blank');
+    window.open('https://drive.google.com/file/d/10_uE0Kn5ItOeGtE5UxOWZ-SeydGocz7t/view?usp=sharing', '_blank');
   };
 
   React.useEffect(() => {
