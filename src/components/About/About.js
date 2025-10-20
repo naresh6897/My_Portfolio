@@ -1,6 +1,6 @@
 import "./About.css";
 import { animated, useSpring } from "react-spring";
-import yourPhoto from '../../assets/about.jpg';
+import yourPhoto from '../../assets/about.jpeg';
 
 export default function About() {
   const props = useSpring({
