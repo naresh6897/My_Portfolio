@@ -1,15 +1,15 @@
 /* Experience.css */
 
 .experience {
-    padding: 20px;
-    text-align: center;
-    min-height: 100vh;
-    flex: 1;
-    line-height: 1.5;
-    margin-bottom: 20px;
-    position: relative;
-    overflow: hidden;
-  }
+  padding: 20px 20px 30px;   /* smaller bottom padding for clean spacing */
+  text-align: center;
+  line-height: 1.5;
+  min-height: auto;          /* remove the full-screen height */
+  margin-bottom: 0;          /* no extra space below the section */
+  position: relative;
+  overflow: hidden;
+}
+
   .more-button {
     background-color: #6494dd;
     align-items: center;
