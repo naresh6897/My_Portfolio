@@ -1,0 +1,108 @@
+/* Minimalist Dark Theme */
+body {
+  background-color: #1e1e1e; /* Dark background */
+  color: #ffffff; /* White text */
+  font-family: 'Roboto', sans-serif; /* Clean font */
+}
+
+/* Stars Animation */
+.stars {
+  position: fixed;
+  top: 50%;
+  left: 40%;
+  height: 1px;
+  width: 1px;
+  border-radius: 50%;
+  background-color: #ffffff; /* White stars */
+  box-shadow: 0 0 5px #ffffff; /* Subtle glow */
+  animation: zoom 10s alternate infinite;
+}
+
+.stars.light {
+  background-color: #cccccc; /* Light gray stars */
+  box-shadow: 0 0 5px #cccccc;
+}
+
+.stars.dark {
+  background-color: #ffffff; /* White stars */
+  box-shadow: 0 0 5px #ffffff;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(2);
+  }
+}
+
+/* Shooting Star Animation */
+.shooting-star {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  width: 4px;
+  height: 4px;
+  background: #ffffff; /* White shooting star */
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.1), 0 0 0 8px rgba(255, 255, 255, 0.1), 0 0 20px rgba(255, 255, 255, 1);
+  animation: animate 5s linear infinite;
+}
+
+.shooting-star::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 300px;
+  height: 1px;
+  background: linear-gradient(90deg, #ffffff, transparent); /* White trail */
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(315deg) translateX(0);
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(315deg) translateX(-1500px);
+    opacity: 0;
+  }
+}
+
+.shooting-star:nth-child(1) {
+  top: 0;
+  right: 0;
+  left: initial;
+  animation-delay: 1s;
+  animation-duration: 2s;
+}
+
+/* Button Styles */
+.button {
+  background-color: #2ecc71; /* Green button */
+  color: #ffffff;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #27ae60; /* Darker green on hover */
+}
+
+/* Card Styles */
+.card {
+  background-color: rgba(46, 46, 46, 0.8); /* Semi-transparent dark background */
+  border: 1px solid #2ecc71; /* Green border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}

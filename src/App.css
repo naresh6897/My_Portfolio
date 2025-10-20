@@ -1,0 +1,26 @@
+.app {
+  transition: background-color 0.5s ease;
+}
+
+.app.light {
+  background: linear-gradient(#aea0b4, #8098b9);
+  color: black;
+}
+
+.app.dark {
+  background: linear-gradient(to right, #1c2f5b, #191c1f);
+  color: white;
+}
+
+.navbar.light {
+  background: linear-gradient(#877b99, #767d88, #93819a);
+}
+
+.navbar.dark {
+  background: linear-gradient(#585888, #16213E, #0F3460);
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
