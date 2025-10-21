@@ -26,7 +26,7 @@ const projectsData = [
     title: 'Smart Plant Recognition',
     description: 'Developed an app which detects the name of the plant, scientific name, along with the description of the plant from a photograph that student uploads. Used Angular framework (TypeScript/JS) and Django framework (Python) with HTML & CSS for Front End.',
     techStack: ['Python', 'Django', 'HTML5', 'CSS3', 'JavaScript', 'Angular', 'NodeJS'],
-    githubLink: 'https://github.com/nishikasankuri/Phoenix.git'
+    githubLink: 'https://github.com/naresh6897/Pheonix'
   },
   {
     title: 'Smart Waste Sorting: A Comparative Analysis of ML Algorithms',
