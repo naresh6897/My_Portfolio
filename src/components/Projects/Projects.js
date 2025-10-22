@@ -20,7 +20,11 @@ const projectsData = [
     title: 'My Portfolio Using React',
     description: 'Designed and developed a personal portfolio website to showcase projects, skills, and achievements. Built using ReactJS, Tailwind CSS, and hosted on GitHub Pages with a CI/CD pipeline for automated deployments. Integrated dark mode, responsive design, and interactive UI elements for an enhanced user experience.). ',
     techStack: ['HTML5', 'CSS3','JavaScript','ReactJS'],
+<<<<<<< HEAD
     githubLink: 'https://github.com/naresh6897/Portfolio.git'
+=======
+    githubLink: 'https://github.com/naresh6897/My_Portfolio'
+>>>>>>> b8bfec4 (Initial portfolio commit)
   },
   {
     title: 'Smart Plant Recognition',

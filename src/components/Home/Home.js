@@ -1,10 +1,18 @@
 import { Link } from "react-scroll";
 import React, { useContext } from "react";
+<<<<<<< HEAD
 import { Typewriter } from "react-simple-typewriter";
 import { useSpring, animated } from "react-spring";
 import { ThemeContext } from '../../App';
 import "./Home.css";
 import myImage from '../../assets/Naresh3.jpeg'; // <-- add this image to src/assets
+=======
+// ❌ remove: import { Typewriter } from "react-simple-typewriter";
+import { useSpring, animated } from "react-spring";
+import { ThemeContext } from '../../App';
+import "./Home.css";
+import myImage from '../../assets/Naresh3.jpeg';
+>>>>>>> b8bfec4 (Initial portfolio commit)
 
 const loadFontAwesome = () => {
   const link = document.createElement("link");
@@ -15,8 +23,16 @@ const loadFontAwesome = () => {
 
 const Home = () => {
   const resumeLink = () => {
+<<<<<<< HEAD
     // TODO: replace with your real public resume URL
     window.open('https://drive.google.com/file/d/10_uE0Kn5ItOeGtE5UxOWZ-SeydGocz7t/view?usp=sharing', '_blank');
+=======
+    window.open(
+      'https://drive.google.com/file/d/10_uE0Kn5ItOeGtE5UxOWZ-SeydGocz7t/view?usp=sharing',
+      '_blank',
+      'noopener,noreferrer'
+    );
+>>>>>>> b8bfec4 (Initial portfolio commit)
   };
 
   React.useEffect(() => {
@@ -39,6 +55,7 @@ const Home = () => {
             Naresh Kumar Kasthuri
           </animated.h1>
 
+<<<<<<< HEAD
           <h2>
             <Typewriter
               words={[
@@ -56,6 +73,10 @@ const Home = () => {
               delaySpeed={1000}
             />
           </h2>
+=======
+          {/* ✅ constant title instead of typewriter */}
+          <h2>AI/ML & Full-Stack Developer</h2>
+>>>>>>> b8bfec4 (Initial portfolio commit)
 
           <p>
             I’m an AI/ML and Python full-stack developer based in Mississauga, ON (open to relocation).
@@ -85,9 +106,14 @@ const Home = () => {
             >
               <i className="fas fa-envelope"></i>
             </a>
+<<<<<<< HEAD
             {/* Removed LinkedIn and Blog per your request */}
             <a
               href="https://github.com/naresh6897"  // <-- update if your username differs
+=======
+            <a
+              href="https://github.com/naresh6897"
+>>>>>>> b8bfec4 (Initial portfolio commit)
               className="icon-link"
               target="_blank"
               rel="noopener noreferrer"
