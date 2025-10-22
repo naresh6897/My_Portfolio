@@ -8,19 +8,19 @@ const projectsData = [
     description:
       'Designed and developed a full-stack AI-powered financial assistant that analyzes spending patterns, detects unusual transactions, forecasts finances, and simulates loan repayments. Built with React (Next.js), FastAPI, MongoDB, and integrated Azure Blob Storage, Firebase, and Docker for deployment. Integrated AI/ML models using Facebook Prophet and scikit-learn for forecasting and anomaly detection.',
     techStack: ['Next.js', 'FastAPI', 'MongoDB', 'Azure', 'Firebase', 'Prophet', 'scikit-learn', 'Docker'],
-    githubLink: 'https://github.com/nareshkasthuri/FinBuddy.git'
+    githubLink: ''
   },
   {
     title: 'My Weather App Using React',
     description: 'Developed a web application using ReactJS that retrieves the current weather data for the users current location or any location they search for, as well as the five-day weather forecast, including the locations minimum and maximum temperatures, humidity, and sky conditions (cloudy, clear, rainy, fog, and mist). ',
     techStack: ['HTML5', 'CSS3','JavaScript','ReactJS'],
-    githubLink: 'https://github.com/nishikasankuri/weather.git'
+    githubLink: 'https://github.com/naresh6897/weather'
   },
   {
     title: 'My Portfolio Using React',
     description: 'Designed and developed a personal portfolio website to showcase projects, skills, and achievements. Built using ReactJS, Tailwind CSS, and hosted on GitHub Pages with a CI/CD pipeline for automated deployments. Integrated dark mode, responsive design, and interactive UI elements for an enhanced user experience.). ',
     techStack: ['HTML5', 'CSS3','JavaScript','ReactJS'],
-    githubLink: 'https://github.com/nishikasankuri/Portfolio.git'
+    githubLink: 'https://github.com/naresh6897/Portfolio.git'
   },
   {
     title: 'Smart Plant Recognition',
@@ -39,7 +39,7 @@ const projectsData = [
     description:
       'Developed a Python + MySQL project to display train availability, seat status, and pricing based on user-selected travel details. Designed for future integration with full booking and payment capabilities.',
     techStack: ['Python', 'MySQL', 'HTML5', 'CSS3'],
-    githubLink: 'https://github.com/nareshkasthuri/RailwayReservationSystem.git'
+    githubLink: ''
   }
 ];
 
